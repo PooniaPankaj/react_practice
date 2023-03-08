@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
+import {withRouter} from 'react-router';
 
-export default function About() {
+const user = function About() {
     // let myStyle={
         // color:'white',
         // backgroundColor:'black'
@@ -73,3 +74,5 @@ export default function About() {
     
   )
 }
+
+export default withRouter(user);
